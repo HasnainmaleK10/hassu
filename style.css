@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+body{
+    background-color: black;
+    max-width: 100%;
+}
+.nav-ul{
+    display: flex;
+    justify-content: right;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.nav-li{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    transition: 1s;
+}
+a:hover{
+    color: #a204bd;
+    transition: 1s;
+}
+header{
+    display: flex;
+}
+#h_image{
+    padding-left: 20px;
+    height: 600px;
+    width: 700px;
+}
+h1{
+    color: #ffff;
+    font-size: 50px;
+}
+p{
+    color: #ffff;
+    font-size: 20px;
+}
+.h_des{
+    padding-top: 180px;
+    padding-left: 200px;
+}
+#hassu{
+    color: #a204bd;
+    text-shadow: 0px 4px 50px #a204bd;
+}
+.certs{
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+}
+.cert-name{
+    color: black;
+    font-family: poppins;
+    font-weight: bold;
+}
+.cards{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    border-style: solid;
+    background-color: #ffff;
+    box-shadow: 0px 4px 35px #a204bd;
+}
+.card_img{
+    width: 200px;
+    height: 200px;
+}
+h2{
+    color: #ffff;
+    font-size: 50px;
+}
+h2:hover{
+    -webkit-text-stroke: 3px #a204bd;
+    transition: 1s;
+}
+.projects{
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+}
+form{
+    box-shadow: 0px 4px 35px #a204bd;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    place-self: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #c6c4c4;
+    opacity: 80%;
+    width: 25.5%;
+    border-radius: 5px;
+}
+.fields{
+    padding-left: 10px;
+    font-size: 15px;
+    height: 30px;
+    width: 350px;
+    border-radius: 5px;
+}
+.log_btn{
+    margin-top: 20px;
+    width: 180px;
+    font-size: 20px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #ffff;
+    background: #a204bd;
+    transition: 1s;
+}
+.log_btn:hover{
+    color: black;
+    transition: 1s;
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+    transition: 1s;
+}
+textarea{
+    font-size: 15px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+#con{
+    font-size: 30px;
+    font-weight: bold;
+    color: #a204bd;
+}
+#line{
+    width: 5%;
+    border: 3px;
+    border-style: solid;
+    border-color: #a204bd;
+}
+.lbl{
+    font-family: poppins;
+    color: black;
+    margin-top: 10px;
+    font-size: 20px;
+    max-width: 90%;
+    padding-bottom: 10px;
+}
